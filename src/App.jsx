@@ -12,9 +12,9 @@ import Terms from './pages/Terms';
 import NavigationBar from './Components/NavigationBar';
 import FooterSection from './Components/FooterSection';
 import Page404 from './pages/Page404';
-import ReviewForm from './pages/ReviewForm';
-import GameDetails from './Components/GameDetails';
-import GameList from './pages/GameList';
+import CategoryPage from './pages/CategoryPage';
+import PostPage from './pages/PostPage';
+import QuotesPage from './pages/QuotesPage';
 
 export default function App() {
   return (
@@ -31,8 +31,9 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="*" element={<Page404 />} />
-        <Route path="/games/:id" element={<GameDetails />} />
-        <Route path="/gameList" element={<GameList />} />
+        <Route path="/categoryPage" element={<CategoryPage />} />
+        <Route path="/post" element={<PostPage />} />
+        <Route path="/quotes" element={<QuotesPage />} />
                 </Routes>
 <FooterSection/>
     </>
