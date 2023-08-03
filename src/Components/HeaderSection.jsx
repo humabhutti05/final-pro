@@ -38,7 +38,7 @@
 // //   useEffect(() => {
 // //     axios.get('https://www.freetogame.com/api/game?id=${id}')
 // //       .then(response => setGames(response.data))
-// //       .catch(error => console.error(error));
+// //       .catch(error => console.error(error));//////////////
 // //   }, []);
 
 // //   return (

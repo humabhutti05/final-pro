@@ -13,7 +13,7 @@ function NavigationBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Link className='nav-link' to='/' style={{ color: 'white'}} >Home</Link>
-            <Link className='nav-link' to='/gameList' style={{ color: 'white' }}>Games</Link>
+            <Link className='nav-link' to='/quotes' style={{ color: 'white' }}>Quotes</Link>
             <Link className='nav-link' to='/signUp' style={{ color: 'white' }}>Sign Up</Link>
             <Link className='nav-link' to='/post' style={{ color: 'white' }}>Posts</Link>
             <Link className='ms-4 btn btn-dark' to='/login'>Login</Link>
